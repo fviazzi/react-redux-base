@@ -1,0 +1,11 @@
+{
+
+  "api": "localhost/api",
+
+  "server" : "localhost",
+
+  "browserSync" : {
+    "open" : false,
+    "port" : 8000
+  }
+}
