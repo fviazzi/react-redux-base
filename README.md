@@ -6,15 +6,16 @@
 	<b></b>
 	<b>Simplest base setup for a react redux project.</b>
 	<br />
+</p>
 
-	<p align="center">
-		<!-- React -->
-		<img alt="React Version" longdesc="Current React Version" src="https://img.shields.io/badge/react-v16.14.0-61DBFB" />
-		<!-- React Redux -->
-		<img alt="Redux Version" longdesc="Current Redux Version" src="https://img.shields.io/badge/react--redux-v7.2-764abc" />
-		<!-- WEbpack -->
-		<img alt="Webpack Version" longdesc="Current Webpack Version" src="https://img.shields.io/badge/webpack-v5.2.0-1c78c0" />
-	</p>
+<!-- Badges -->
+<p align="center">
+	<!-- React -->
+	<img alt="React Version" longdesc="Current React Version" src="https://img.shields.io/badge/react-v16.14.0-61DBFB" />
+	<!-- React Redux -->
+	<img alt="Redux Version" longdesc="Current Redux Version" src="https://img.shields.io/badge/react--redux-v7.2-764abc" />
+	<!-- WEbpack -->
+	<img alt="Webpack Version" longdesc="Current Webpack Version" src="https://img.shields.io/badge/webpack-v5.2.0-1c78c0" />
 </p>
 
 <!-- Body -->
