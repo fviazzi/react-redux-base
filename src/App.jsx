@@ -5,9 +5,9 @@ import { connect } from 'react-redux';
 import config from 'config';
 
 // Internal modules
-import { history } from '../_helpers/history.js';
-import { Home } from '../views/Home/Home.jsx';
-import { Account } from '../views/Account/Account.jsx';
+import { history } from './_helpers/history.js';
+import { Home } from './views/Home/Home.jsx';
+import { Account } from './views/Account/Account.jsx';
 
 class App extends React.Component {
 

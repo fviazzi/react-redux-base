@@ -5,7 +5,7 @@ import { Provider } from 'react-redux';
 
 // Internal modules
 import { store } from './_redux/store.js';
-import { App } from './App/App.jsx';
+import { App } from './App.jsx';
 
 render(
     <Provider store={ store }>
