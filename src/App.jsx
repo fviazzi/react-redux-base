@@ -1,11 +1,11 @@
 // External modules
 import React from 'react';
 import { Router, Route, Link } from 'react-router-dom';
+import { createBrowserHistory } from 'history';
 import { connect } from 'react-redux';
 import config from 'config';
 
 // Internal modules
-import { history } from './_helpers/history.js';
 import { Home } from './views/Home/Home.jsx';
 import { Account } from './views/Account/Account.jsx';
 
@@ -16,14 +16,17 @@ class App extends React.Component {
   }
 
   render() {
+
+    const history = createBrowserHistory();
+
     return (
       <div>
-        <Router history={ history }>
+        <BrowserRouter basename={ config.basepath } history={ history } >
           <div>
-            <Route path={ config.basepath + '/' } exact component={ Home } />
-            <Route path={ config.basepath + '/account' } exact component={ Account } />
+            <Route path={ '/' } exact component={ Home } />
+            <Route path={ '/account' } exact component={ Account } />
           </div>
-        </Router>
+        </BrowserRouter >
       </div>
     );
   }
