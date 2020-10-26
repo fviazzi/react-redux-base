@@ -1,0 +1,16 @@
+#message {
+  color: $color__main;
+  font-family: sans-serif;
+}
+
+#change-msg {
+  margin: 0 0 20px;
+  padding: 15px 20px;
+  background: $color__info;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 1.4rem;
+  cursor: pointer;
+  border: none;
+  outline: none!important;
+}
