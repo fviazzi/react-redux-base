@@ -1,2 +1,8 @@
 // Ignore Node Modules
 /node_modules/*
+
+// Ignore Build Files
+/build/main.js
+/build/main.js.map
+/build/style.css
+/build/style.css.map
