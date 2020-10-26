@@ -1,9 +1,9 @@
-import { dashboardConstants } from '../../_redux/constants.js';
+import { appConstants } from '../../_redux/constants.js';
 
 export const homeActions = {
   updateMessage
 };
 
 function updateMessage(message) {
-  return { type: dashboardConstants.UPDATE_MESSAGE, message };
+  return { type: appConstants.UPDATE_MESSAGE, message };
 }

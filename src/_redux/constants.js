@@ -1,3 +1,3 @@
-export const dashboardConstants = {
-  UPDATE_MESSAGE : 'DASHBOARD_UPDATE_MESSAGE'
+export const appConstants = {
+  UPDATE_MESSAGE : 'APP_UPDATE_MESSAGE'
 };
