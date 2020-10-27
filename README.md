@@ -36,13 +36,13 @@ npm install
 yarn install
 ```
 
-- Run dev command:
+- Run build command:
 
 ```sh
 npm start
 ```
 
-- Open
+At this point, you will get a [Browsersync] message with <b>Access URLs:</b>. You can use the local url for desktop development or the external URL on any device contected to the same network.
 
 ## Git Guidelines
 
