@@ -1,6 +1,6 @@
 // External modules
 import React from 'react';
-import { Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
 import { connect } from 'react-redux';
 import config from 'config';
@@ -21,12 +21,12 @@ class App extends React.Component {
 
     return (
       <div>
-        <BrowserRouter basename={ config.basepath } history={ history } >
+        <BrowserRouter history={ history }>
           <div>
-            <Route path={ '/' } exact component={ Home } />
-            <Route path={ '/account' } exact component={ Account } />
+            <Route path={ config.basepath + '/' } exact component={ Home } />
+            <Route path={ config.basepath + '/account' } exact component={ Account } />
           </div>
-        </BrowserRouter >
+        </BrowserRouter>
       </div>
     );
   }
