@@ -4,9 +4,9 @@
   "description": "Simplest base setup for a react redux project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve --mode development",
-    "build": "webpack serve --mode production"
+    "start": "webpack --mode development",
+    "dist": "echo \"Error: no distribution specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
